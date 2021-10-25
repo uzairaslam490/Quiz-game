@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/quiz.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card text-center">
+        <div class="quizContainer" id="container" >
+            <h1 class="card-title" style="font-size: 35px; color: aqua;
+            text-shadow: 2px 2px maroon; margin-bottom: 20px;"> Quiz related to Javascript</h1>
+
+            <div id="question" class="card-text" style="color: orange; font-size: 30px; margin-top: 100px;">
+                <div class="question" style="float: left; margin-left: 200px; text-shadow: 2px 2px purple"></div>
+            </div>
+            <div class="card-text" id="radio">
+                    <ol type="A" class="choiceList">
+                        <li>
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"
+                                        style="background: transparent; border: transparent;" id="basic-addon1">
+                                        <input type="radio" class="radio" style="height: 17px; width: 17px;"></span>
+                                    </div>
+                                        <h3 class="option" style="background: transparent;
+                                        border: transparent; font-size: 25px; color: aqua; text-align: left; margin-left: 10px;
+                                        margin-top: 5px;"
+                                        aria-label="Username"
+                                        aria-describedby="basic-addon1"></h3>
+                              </div>
+                        </li>
+                        <li>
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" 
+                                        style="background: transparent; border: transparent;" id="basic-addon1">
+                                        <input type="radio" class="radio" style="height: 17px; width: 17px;"></span>
+                                    </div>
+                                        <h3 class="option" style="background: transparent;
+                                        border: transparent; font-size: 25px; color: aqua; text-align: left; margin-top: 5px;
+                                        margin-left: 10px;"
+                                        aria-label="Username"
+                                        aria-describedby="basic-addon1"></h3>
+                              </div>
+                        </li>
+                        <li>
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" 
+                                        style="background: transparent; border: transparent;" id="basic-addon1">
+                                        <input type="radio" class="radio" style="height: 17px; width: 17px;"></span>
+                                    </div>
+                                        <h3 class="option" style="background: transparent;
+                                        border: transparent; font-size: 25px; color: aqua; text-align: left; margin-left: 10px;
+                                        margin-top: 5px;"
+                                        aria-label="Username"
+                                        aria-describedby="basic-addon1"></h3>
+                              </div>
+                        </li>
+                        <li>
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"
+                                        style="background: transparent; border: transparent;" id="basic-addon1">
+                                        <input type="radio" class="radio" style="height: 17px; width: 17px;"></span>
+                                    </div>
+                                        <h3 class="option" style="background: transparent;
+                                        border: transparent;font-size: 25px; color: aqua; text-align: left; margin-left: 10px;
+                                        margin-top: 5px;"
+                                        aria-label="Username"
+                                        aria-describedby="basic-addon1"></h3>
+                              </div>
+                        </li>
+                    </ol>
+                    <div class="quizMessage" style="color: aqua; margin-left: 300px; margin-top: 50px; font-size: 30px;"></div>
+                    <div class="result" style="color: greenyellow; margin-left: 300px; margin-top: 20px; font-size: 30px;"></div>
+                    <div>
+                        <button type="button" id="nextButton" class="nextButton" 
+                        style="width: 150px; height: 50px; float: left; margin-left: 380px; margin-top: 20px;">Next Question</button>
+                    </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="scripts/quiz.js"></script>
+</body>
+</html>

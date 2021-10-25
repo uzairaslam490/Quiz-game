@@ -1,0 +1,65 @@
+html {
+    background-image: url('wall.jpg');
+}
+body {
+    background: transparent;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+.card {
+    background: transparent;
+}
+#container {
+    text-align: center;
+    background: transparent;
+    margin: 5px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+#radio {
+    float: left;
+    margin-left: 200px;
+    font-size: 30px;
+    color: aqua;
+    margin-top: 40px;
+    text-shadow: 2px 2px maroon;
+}
+#nextButton {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ ul {
+     list-style-type: none;
+     margin-top: 50px;
+ }
+li {
+    margin-top: 30px;
+    
+}
+li > input {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-top: 10px;
+}
+li > h3 {
+   display: inline-block;
+}
+ 

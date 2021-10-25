@@ -1,0 +1,21 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #828282;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #bec3c9;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-link:hover {
+    color: #fff;
+}
